@@ -12,7 +12,7 @@ def chat_with_model(prompt):
     )
     return response.json().get("response", "No response")
 
-st.title("Mini ChatGPT")
+st.title("Mini🤖SidGPT")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
